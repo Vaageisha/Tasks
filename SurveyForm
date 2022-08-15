@@ -164,32 +164,7 @@
 
     
           
-    
-        
-      
-    <script>
-    document.getElementById("survey-form").addEventListener("keyup", myFunction);
-    function myFunction()
-    {
-      console.log("hello")
-      var count = 0
-      var elements = document.getElementsByClassName("input")
-      for (let i = 0; i < elements.length; i++) {
-        var element = elements[i]
-        var value = element.value
-        console.log("hey")
-        if (value.length > 0){
-          count = count + 1
-           
-        }
-
-      }
-      console.log(count)
-      document.getElementById("count").innerText = count
-      
-      
-   }
-  </script>
+     
 </body>
 
 </html>
